@@ -1,0 +1,9 @@
+#!/bin/bash -eu
+
+serve() {
+  php -S localhost:4000
+}
+
+format() {
+  prettier --write .
+}
